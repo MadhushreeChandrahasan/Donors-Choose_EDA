@@ -1,4 +1,4 @@
-#DonorsChoose
+# DonorsChoose  
 DonorsChoose.org receives hundreds of thousands of project proposals each year for classroom projects in need of funding. Right now, a large number of volunteers is needed to manually screen each submission before it's approved to be posted on the DonorsChoose.org website.
 
 Next year, DonorsChoose.org expects to receive close to 500,000 project proposals. As a result, there are three main problems they need to solve:
@@ -8,13 +8,12 @@ How to increase the consistency of project vetting across different volunteers t
 How to focus volunteer time on the applications that need the most assistance
 The goal of the competition is to predict whether or not a DonorsChoose.org project proposal submitted by a teacher will be approved, using the text of project descriptions as well as additional metadata about the project, teacher, and school. DonorsChoose.org can then use this information to identify projects most likely to need further review before approval.
 
-#About the DonorsChoose Data Set
+# About the DonorsChoose Data Set  
 The train.csv data set provided by DonorsChoose contains the following features:
 
-Feature	Description
+# Feature Description
 project_id	A unique identifier for the proposed project. Example: p036502
-project_title	Title of the project. Examples:
-Art Will Make You Happy!
+project_title	Title of the project. Examples:Art Will Make You Happy!
 First Grade Fun
 project_grade_category	Grade level of students for which the project is targeted. One of the following enumerated values:
 Grades PreK-2
